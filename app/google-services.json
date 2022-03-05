@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "837190933184",
+    "project_id": "upskillforfree",
+    "storage_bucket": "upskillforfree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837190933184:android:533275e7074c8900faab25",
+        "android_client_info": {
+          "package_name": "com.example.upskillforfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837190933184-r68jjsbi37mgfmk138gi2q6ckfh86h17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.upskillforfree",
+            "certificate_hash": "b8d9e6677b4cf4333ba953de70547c82151c7505"
+          }
+        },
+        {
+          "client_id": "837190933184-9hg0sr5cuagda5v6h12v07karivub0vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbPJCUN4jA6I1wE0dNKsl_GfstA9Hgc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837190933184-9hg0sr5cuagda5v6h12v07karivub0vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
