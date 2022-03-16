@@ -20,27 +20,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/loginapplogo"
-        android:padding="20dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:hint="Username"
+        android:hint="Email"
+        android:padding="20dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="17sp"/>
+        android:textSize="17sp" />
 
     <EditText
-    android:id="@+id/loginpassword"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/loginusername"
-    android:padding="20dp"
-    android:layout_marginLeft="15dp"
+        android:id="@+id/loginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginusername"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="6dp"
-    android:layout_marginRight="15dp"
-    android:hint="Password"
-    android:textColor="@color/black"
-    android:textColorHint="@color/black"
-    android:textSize="17sp"/>
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17sp" />
     <LinearLayout
         android:id="@+id/linearlayout1"
         android:layout_width="match_parent"
@@ -48,18 +48,20 @@
         android:orientation="horizontal"
         android:layout_below="@+id/loginpassword"
         android:layout_marginTop="5dp">
-    <com.rey.material.widget.CheckBox
-        android:id="@+id/rememberme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/Material.Drawable.CheckBox"
-        android:text="Remember me"
-        android:textColor="@color/black"
-        app:cbd_strokeColor="@color/black"
-        android:gravity="center_vertical"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_marginLeft="17dp"/>
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/rememberme"
+            style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:gravity="center_vertical"
+            android:text="Remember me"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cbd_strokeColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/forgetpassword"
@@ -91,18 +93,19 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/adminpanel"
+    <Button
+        android:id="@+id/register"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I'm an Admin"
-        android:layout_alignParentEnd="true"
         android:layout_below="@+id/loginbutton2"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="95dp"
         android:layout_marginEnd="23dp"
-        android:layout_marginLeft="95dp"/>
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/notadminpanel"
