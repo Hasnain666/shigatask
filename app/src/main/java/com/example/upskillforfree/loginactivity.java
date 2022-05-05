@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -59,6 +60,7 @@ public class loginactivity extends AppCompatActivity {
 
     }
 
+
     private void login() {
         String user = loginusername.getText().toString().trim();
         String pass = loginpassword.getText().toString().trim();
@@ -79,6 +81,7 @@ public class loginactivity extends AppCompatActivity {
                     {
                         Toast.makeText(loginactivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(loginactivity.this,MainActivity.class));
+                        finish();
 
                     }
                     else {
